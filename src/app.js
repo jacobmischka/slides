@@ -11,7 +11,7 @@ require('materialize-css')
 
 var Clipboard = require('clipboard')
 var sync = require('./syncid.js')
-require('./remark.js')
+require('remark/out/remark.js')
 
 var Vue = require('vue')
 
